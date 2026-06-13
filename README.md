@@ -43,13 +43,6 @@ git clone https://github.com/YOUR_USERNAME/netflix-clone-ui.git
 * Creating reusable sections and components
 * Improving UI design skills through cloning existing websites
 
-## 🔮 Future Improvements
-
-* Add JavaScript functionality
-* Rebuild using React
-* Add animations and transitions
-* Improve accessibility
-
 ## 📄 License
 
 This project is for educational purposes only and is not affiliated with Netflix.
