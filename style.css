@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden ;
+}
+
+body {
+    background-color: black;
+    
+}
+
+.main {
+    background-image: url(Assets/bg.jpg);
+    height: 500px;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+}
+
+.box {
+    background-color: black;
+    height: 500px;
+    opacity: .58;
+    width: 100%;
+    position: absolute;
+    top: 0
+}
+@media screen and (max-width:541px) {
+    .main{
+        height: 600px;
+    }
+    .box{
+        height: 600px;
+    }
+}
+
+nav {
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+nav img {
+    width: 150px;
+    position: relative;
+    z-index: 1;
+}
+
+nav button {
+    position: relative;
+    z-index: 1;
+}
+
+.hero {
+    position: relative;
+    z-index: 1;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.hero> :nth-child(1) {
+    font-size: 50px;
+}
+
+.hero> :nth-child(2) {
+    font-size: 20px;
+}
+
+.hero> :nth-child(3) {
+    font-size: 20px;
+}
+
+.seperation {
+    background-color:  rgb(63, 62, 62);
+    height: 8px;
+}
+
+.btn {
+    background-color: initial;
+    color: white;
+    padding: 6px 25px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: rgb(228, 3, 3);
+    color: white;
+    border-radius: 8px;
+    padding: 9px 17px;
+}
+
+.gs {
+    background-color: rgb(228, 3, 3);
+    color: white;
+    border-radius: 5px;
+    padding: 9px 35px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.main input {
+    border-radius: 5px;
+    padding: 10px 5px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: initial;
+    border: 1px solid rgba(rgba(255, 255, 255, 0.3), green, blue, alpha);
+    color: white;
+    width: 330px;
+}
+
+.start {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    margin: auto;
+    color: white;
+    padding: 20px 0px;
+}
+@media screen and (max-width:1300px){
+    nav{
+        max-width: 95vw;
+    }
+    .section1{
+        flex-wrap: wrap;
+    }
+    .hero> :nth-child(1) {
+        font-size: 34px;
+    }
+    
+    .hero> :nth-child(2) {
+        font-size: 16px;
+    }
+    
+    .hero> :nth-child(3) {
+        font-size: 16px;
+    }
+}
+
+.secimg {
+    position: relative;
+    overflow: hidden;
+}
+
+.secimg img {
+    width: 350px;
+    height: 270px;
+    position: relative;
+    z-index: 10;
+    margin: auto;
+}
+
+.secimg video {
+    position: absolute;
+    width: 350px;
+    height: 269px;
+    top: 0;
+    left: 43px;
+}
+div span {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+
+.section1>div :nth-child(1) {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.section1>div :nth-child(2) {
+    font-size: 18px;
+}
+.faq h2{
+    text-align: center;
+    font-size: 35px;
+}
+.faq {
+    color: white;
+    padding: 35px;
+}
+.faqbox{
+    transition: all .3s ease-out;
+    background-color: rgb(63, 62, 62);
+    display: flex;
+    justify-content: space-between;
+    padding: 28px;
+    max-width: 70vw;
+    margin: 20px auto;
+    font-size: 23px;
+    cursor: pointer;
+}
+.faqbox:hover{
+    background-color: rgb(88, 88, 88);
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    width: 70vw;
+}
+@media screen and (max-width: 750px) {
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        gap: 5px;
+        width: 70vw;
+    }
+
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+div a{
+    color: rgb(174, 172, 172);
+    font-size: 16px;
+}
+
+.questions{
+    color:  rgb(174, 172, 172);
+    margin: 30px 222px;
+}
